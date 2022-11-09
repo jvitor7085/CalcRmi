@@ -21,13 +21,13 @@ public class Servidor implements Ola {
 		return x - y;
 	}
 
-	public double divisao(int x, int y) {
+	public Double divisao(Double x, Double y) {
 		if (x != 0 && y != 0)
-			return x / y;
+			return (double) (x / y);
 
 		else {
 			System.out.println("divisao por 0 não existe, impossivel fazer a operação");
-			return 0;
+			return 0.0;
 		}
 
 	}
@@ -36,7 +36,6 @@ public class Servidor implements Ola {
 		return x * y;
 	}
 
-	
 	public static void main(String[] args) {
 		try {
 
@@ -57,5 +56,6 @@ public class Servidor implements Ola {
 			e.printStackTrace();
 		}
 	}
+
 
 }

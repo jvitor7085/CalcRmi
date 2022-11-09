@@ -64,9 +64,9 @@ static Scanner sc=new Scanner(System.in);
 
 				if (opc == 4) {
 					System.out.println("Informe o primeiro numero da divisao:");
-					int num1 = sc.nextInt();
+					Double num1 = sc.nextDouble();
 					System.out.println("Informe o segundo numero da divisao:");
-					int num2 = sc.nextInt();
+					Double num2 = sc.nextDouble();
 					System.out.println("O resultado de " + num1 + "/" + num2 + "=" + stub.divisao(num1, num2));
 					break;
 				} else {

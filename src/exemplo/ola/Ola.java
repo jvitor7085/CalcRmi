@@ -11,7 +11,7 @@ public interface Ola extends Remote {
 
 public int soma(int x, int y) throws RemoteException;
 public int subtracao(int x, int y) throws RemoteException;
-public double divisao(int x, int y) throws RemoteException;
+public Double divisao(Double num1, Double num2) throws RemoteException;
 public int multiplicacao(int x, int y) throws RemoteException;
 
 }
